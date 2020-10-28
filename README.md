@@ -1,13 +1,11 @@
 # Speaker Verification Using Azure
 
 ## Setup
-Clone this repository
-`git clone ...`
-
-1. Log into your [azure console](https://portal.azure.com/#home).  You must have some kind of Azure subscription before moving on.
-2. Click "Create a Resource", then search for "Speech", and click "Create".
-3. Name the resource, associate it with a subscription, and make sure the location is **(US) West US**.  Select **Standard S0** pricing tier.  Add it to, or create a new resource group to hold this resource.
-4. Click "Go to Resource"-> "Keys and Endpoint" (on the left), and copy one of the keys (either one). Paste it in `secrets.json` in place of `YOUR KEY HERE`.
+1. Clone this repository
+2. Log into your [azure console](https://portal.azure.com/#home).  You must have some kind of Azure subscription before moving on.
+3. Click "Create a Resource", then search for "Speech", and click "Create".
+4. Name the resource, associate it with a subscription, and make sure the location is **(US) West US**.  Select **Standard S0** pricing tier.  Add it to, or create a new resource group to hold this resource.
+5. Click "Go to Resource"-> "Keys and Endpoint" (on the left), and copy one of the keys (either one). Paste it in `secrets.json` in place of `YOUR KEY HERE`.
 
 ## Usage
 1. Make sure you're in this working directory (if not, `cd speaker_verification` first).
